@@ -1,0 +1,13 @@
+<h1>안녕하세요.</h1>
+<h2>home입니다.</h2>
+<br>
+
+<a href="{% url 'about' %}">about</a>
+<br><br>
+
+<form action="{%url 'result' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br><br>
+    
+    <input type="submit" value="Count!">
+</form>
